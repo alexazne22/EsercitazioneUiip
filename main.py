@@ -10,7 +10,7 @@ comando = input('Inserisci comando: ')
 comando = int(comando)
 
 lista = []
-lista_test = [ Auto('x', 10, 5, 'y', 'u'), Auto('a', 5, 50, 'y', 'u')]
+lista_test = [ Auto('x', 10, 5, 'y', 'u'), Auto('a', 5, 50, 'b', 'c')]
 while comando != -1:
     if comando == 1: #Lettura
         print()
