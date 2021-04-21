@@ -13,7 +13,18 @@ lista = []
 lista_test = [ Auto('x', 10, 5, 'y', 'u'), Auto('a', 5, 50, 'b', 'c')]
 while comando != -1:
     if comando == 1: #Lettura
-        print()
+        modello_temp = ''
+        cilindrata_temp = 0
+        cavalli_temp = 0
+        produttore_temp = ''
+        tipo_temp = ''
+        modello_temp = input('Inserisci un nodello di auto: ')
+        cilindrata_temp = int(input('Inserisci la cilindrata: '))
+        cavalli_temp = int(input('Inserisci i cavalli: '))
+        produttore_temp = input('Inserisci il produttore: ')
+        tipo_temp = input('Inserisci il tipo: ')
+        p1 = Auto(modello_temp, cilindrata_temp, cavalli_temp, produttore_temp, tipo_temp)
+        lista.append(p1)
 
     if comando == 2: #Ricerca
         print()
