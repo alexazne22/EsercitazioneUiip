@@ -14,6 +14,7 @@ lista_test = [ Auto('x', 10, 5, 'y', 'u'), Auto('a', 5, 50, 'b', 'c')]
 while comando != -1:
     if comando == 1: #Lettura
         print()
+        print()
     if comando == 2: #Ricerca
         print()
     if comando == 3:#Occorrenza di un produttore
