@@ -1,10 +1,11 @@
 class Auto:
     def __init__(self, modello_p, cilindrata_p, cavalli_p, produttore_p, tipo_p):
-        self.modello
-        self.cilindrata
-        self.cavalli
-        self.produttore
-        self.tipo
+        self.modello = modello_p
+        self.cilindrata = cilindrata_p
+        self.cavalli = cavalli_p
+        self.produttore = produttore_p
+        self.tipo = tipo_p
+
 
 comando = input('Inserisci comando: ')
 comando = int(comando)
